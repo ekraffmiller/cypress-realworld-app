@@ -3,7 +3,7 @@
 
 import faker from "faker";
 import { User, BankAccount } from "../../../src/models";
-
+//Adding a comment to test commit
 const apiBankAccounts = `${Cypress.env("apiUrl")}/bankAccounts`;
 const apiGraphQL = `${Cypress.env("apiUrl")}/graphql`;
 
